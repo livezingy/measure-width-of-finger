@@ -24,7 +24,7 @@ Get the width of fingers according the photo with a hand and a coin besides the 
 
 2.  Calculate the “pixels per metric” ratio according to the reference and the input parameter "-w".
 
-3.  Find the keypoints of the hand with convexHull和convexityDefects.
+3.  Find the keypoints of the hand with convexHull and convexityDefects.
 ![image](https://livezingy.com/uploads/2020/09/keypoint.png)
 
 4. Get the smallest circumscribed rectangle of the finger and caculate their width and height.
