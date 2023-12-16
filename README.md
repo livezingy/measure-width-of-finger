@@ -1,6 +1,6 @@
 # measure-width-of-finger
 Get the width of fingers according the photo with a hand and a coin besides the hand.
-![image](https://livezingy.com/uploads/2020/09/MeasureFinger.gif)
+![image](https://github.com/livezingy/measure-width-of-finger/blob/master/measureFinger.gif)
 
 # How to Run the program
 1. open the cmd.exe and enter the path where measureSize_V1.0.py is located.
