@@ -20,14 +20,12 @@ Get the width of fingers according the photo with a hand and a coin besides the 
 
 # Process steps
 1.  Threshold the source image and Distinguish the reference and the hand.
-![image](https://livezingy.com/uploads/2020/09/thresh.png)
+![image](https://github.com/livezingy/measure-width-of-finger/blob/master/FingerThresh.png)
 
 2.  Calculate the “pixels per metric” ratio according to the reference and the input parameter "-w".
 
 3.  Find the keypoints of the hand with convexHull and convexityDefects.
-![image](https://livezingy.com/uploads/2020/09/keypoint.png)
+![image](https://github.com/livezingy/measure-width-of-finger/blob/master/FingerKeypoints.png)
 
 4. Get the smallest circumscribed rectangle of the finger and caculate their width and height.
-![image](https://livezingy.com/uploads/2020/09/measuresize.png)
-
-More information about the project could refer to:[Measure width of finger in an image with OpenCV](https://livezingy.com/measure-width-of-finger-in-an-image-with-opencv/)
+![image](https://github.com/livezingy/measure-width-of-finger/blob/master/FingerMeasure.png)
